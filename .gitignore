@@ -1,0 +1,15 @@
+# Archivos de compilación
+*.class
+
+# Directorios de build
+/bin/
+/out/
+
+# Archivos temporales del IDE
+*.log
+*.tmp
+
+# Archivos de configuración del IDE (opcional)
+*.idea/
+*.vscode/
+*.class
