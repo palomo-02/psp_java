@@ -10,7 +10,7 @@ public class EjMenu {
 		int opcion = 0;
 
 		do {
-
+		//LimpiarConsola();	
 			menu();
 			opcion = sc.nextInt();
 
@@ -82,6 +82,17 @@ public class EjMenu {
 			System.out.println("Error ejecutando timedatectl: " + e.getMessage());
 		}
 	}
+	
+/**
+ 	private static void LimpiarConsola() {
+		System.out.print("\033[H\033[2J");
+		System.out.flush();		
+	}
+	 
+ */
+
+	
+
 
 	public static void menu() {
 
